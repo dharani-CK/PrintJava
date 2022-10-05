@@ -1,0 +1,22 @@
+/* Assume that a runner runs 14 kilometers in 45 minutes 
+and 30 seconds. Write a program that displays the average speed in miles per 
+hour. (Note 1 mile is equal to 1.6 kilometers.) */
+
+public class AvgSpeed
+{
+	public static void main(String[] args) {
+	    
+	    double km = 14;
+      
+	    double miles = km / 1.6;  //converting km into miles
+      
+	    double time = (45 * 60 + 30.0) / 3600;  //conversting seconds into hours.
+      
+	    double avg_speed = miles / time;  //finding average speed.
+      
+	    System.out.println(avg_speed);  //displaying the results.
+		
+	}
+}
+
+OUTPUT : 11.538461538461538
