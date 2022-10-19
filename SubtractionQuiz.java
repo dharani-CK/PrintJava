@@ -31,6 +31,7 @@ public class SubtractionQuiz
 		}
 		else{
 		    System.out.println("The answer is incorrect. Better luck next time!");
+		    System.out.println(number1 + " - " + number2 + " is " + result);
 		}
     
 	}
